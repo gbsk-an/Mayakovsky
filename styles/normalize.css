@@ -29,6 +29,7 @@ pre {
   
 a {
     background-color: transparent;
+    text-decoration: none;
 }
   
 abbr[title] {
@@ -78,7 +79,7 @@ input,
 optgroup,
 select,
 textarea {
-    font-family: 'Montserrat', sans-serif;
+    font-family: inherit;
     font-size: 100%;
     line-height: 1.15;
     margin: 0;
