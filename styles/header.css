@@ -1,0 +1,24 @@
+/* header */
+#header-wrapper {
+    overflow: hidden;
+    background: url(../images/header.png);
+    background-size: cover;
+}
+
+.header {
+    text-align: center;
+}
+
+/* logo */
+#logo {
+    padding: 8em 0em 4em 0em;
+}
+
+#logo h1 {
+    display: inline-block;
+    margin-bottom: 0.20em;
+    padding: 0.20em 0.9em;
+    font-size: 52px;
+    font-weight: 500;
+    opacity: 80%;
+}
