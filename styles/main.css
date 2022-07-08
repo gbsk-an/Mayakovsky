@@ -1,114 +1,16 @@
-/* message */
-#message {
+@import url('./header.css');
+@import url('./nav.css');
+@import url('./main_grid.css');
+@import url('./footer.css');
+@import url('./normalize.css');
+
+/* wrapper */
+.wrapper {
     overflow: hidden;
-    width: 1000px;
-    padding: 6em 100px 0em 100px;
-    text-align: center;
+    background: #FFF;
 }
 
-/* biography */
-.column {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    overflow: hidden;
-    margin-top: 5em;
-    padding-top: 1em;
-    border-top: 1px solid #292929;
-    text-align: center;
-}
-
-.column h2 {
-    margin: 1em 0em;
-    font-size: 1.5em;
-    font-weight: 700;
-}
-    
-.column .tbox1,
-.column .tbox2,
-.column .tbox3,
-.column .tbox4,
-.column .tbox5 {    
-    width: 320px;
-    padding: 80px 40px 80px 40px;
-}
-
-.column .tbox1 {
-    width: 320px;
-    padding: 80px 40px 80px 0px;                /*first block*/ 
-}
-
-.column .title {
-    text-align: center;
-}
-
-.column .title h2 {
-    font-size: 24px;
-    font-weight: 500;
-}
-
-.column p {
-    font-size: 20px;
-    text-align: justify;
-    font-weight: 500;
-}
-.column .arrow-down {
-    border-top-color: #292929;
-}
-
-/* button */
-.button {
-    display: inline-block;
-    margin-top: 2em;
-    padding: 0.8em 2em;
-    background: #9C9A9A;
-    line-height: 1.8em;
-    letter-spacing: 0.04em;
-    text-decoration: none;
-    font-size: 16px;
-    color: #FFF;
-}
-
-.button:before {
-    display: inline-block;
-    background: #8DCB89;
-    margin-right: 1em;
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    border-radius: 20px;
-    text-align: center;
-    color: #272925;
-}
-
-.poems {
-    display: flex;
-    flex-direction: column;
-}
-/* .poems .arrow {
-    height: 2px;
-    border-top-color: #292929;
-} */
-.poems .title h2 {
-    font-size: 24px;
-    font-weight: 400;
-    letter-spacing: 0.04em;
-}
-.poems p{
-    font-size: 24px;
-    font-weight: 500;
-    letter-spacing: 0.04em;
-}
-.poems a {
-    display: flex;
-    text-decoration: none;
-    color: #292929;
-}
-
-.poems p:active a {
-    color: #292929;
-} 
-.poems p:hover a {
-    color: #ffe550;
+.container {
+    margin: 0px auto;
+    width: 1200px;
 }
