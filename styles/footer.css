@@ -2,7 +2,7 @@
 .footer {
     overflow: hidden;
     padding: 5em 0em;
-    background: #9C9A9A;
+    background: var(--btn-color);
     text-align: center;
 }
     

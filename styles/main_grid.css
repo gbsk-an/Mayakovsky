@@ -15,7 +15,7 @@
     overflow: hidden;
     margin-top: 5em;
     padding-top: 1em;
-    border-top: 1px solid #292929;
+    border-top: 1px solid var(--text-color);
     text-align: center;
 }
 
@@ -54,7 +54,7 @@
     font-weight: 500;
 }
 .column .arrow-down {
-    border-top-color: #292929;
+    border-top-color: var(--text-color);
 }
 
 /* button */
@@ -103,11 +103,11 @@
 .poems a {
     display: flex;
     text-decoration: none;
-    color: #292929;
+    color: var(--text-color);
 }
 
 .poems p:active a {
-    color: #292929;
+    color: var(--text-color);
 } 
 .poems p:hover a {
     color: #ffe550;
