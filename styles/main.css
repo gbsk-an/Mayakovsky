@@ -1,11 +1,16 @@
 @import url("./header.css");
 @import url("./nav.css");
-@import url("./main_grid.css");
+@import url("./welcome.css");
+@import url("./main_flex_container.css");
 @import url("./footer.css");
 @import url("./normalize.css");
 @import url("./variables.css");
-.container {
-  margin: 0px auto;
-  width: 1200px;
+
+body {
+  margin: 0;
   padding: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  color: #292929;
+  background-color: #FFFFFF;
 }

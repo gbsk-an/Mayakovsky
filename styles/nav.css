@@ -6,6 +6,7 @@
 }
 
 .nav {
+  margin: 0;
   display: flex;
   list-style-type: none;
   color: #292929;
@@ -16,12 +17,10 @@
 }
 .nav li {
   display: flex;
-  padding: 1em 1.5em;
   text-decoration: none;
   color: #292929;
+  padding: 1em 1.5em;
   outline: 0;
-  padding-left: 20px;
-  padding-right: 20px;
 }
 .nav li a {
   display: flex;

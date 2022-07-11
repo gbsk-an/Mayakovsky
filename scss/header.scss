@@ -1,3 +1,8 @@
+$text-color: #292929;
+$btn-color: #9C9A9A;
+$white-color: #FFFFFF;
+$font-stack: 'Montserrat', sans-serif;
+
 header {
     overflow: hidden;
     background: url(../images/header.png);
@@ -15,11 +20,12 @@ header {
 
 .logo {
     text-align: center;
-    padding: 8em 0em 4em 0em;
+    padding: 11em 0em 4em 0em;
     h1 {
         margin: 0;
         font-size: 52px;
         font-weight: 500;
         opacity: 80%;
+        letter-spacing: 0.1em;
     }
 }

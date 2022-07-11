@@ -1,3 +1,8 @@
+$text-color: #292929;
+$btn-color: #9C9A9A;
+$white-color: #FFFFFF;
+$font-stack: 'Montserrat', sans-serif;
+
 .navigation {
     display: flex;
     align-items: center;
@@ -5,26 +10,25 @@
     height: 60px;
 }
 .nav {
+    margin: 0;
     display: flex;
     list-style-type: none;
-    color: #292929;
+    color: $text-color;
     font-weight: 400;
     font-size: 20px;
     letter-spacing: 0.04em;
     text-transform: uppercase;
     li{
         display: flex;
-        padding: 1em 1.5em;
         text-decoration: none;
-        color: #292929;
+        color: $text-color;
+        padding: 1em 1.5em;
         outline: 0;
-        padding-left: 20px;
-        padding-right: 20px;
         a {
             display: flex;
             padding: 1em 1.5em;
             text-decoration: none;
-            color: #292929;
+            color: $text-color;
             outline: 0;
         }
     }

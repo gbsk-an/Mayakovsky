@@ -1,0 +1,104 @@
+.welcome_title {
+  margin: 0 auto;
+  max-width: 1110px;
+  padding: 6em 6em;
+  text-align: center;
+}
+
+.wrapper_bio {
+  margin: 0 auto;
+  max-width: 1110px;
+  overflow: hidden;
+}
+.wrapper_bio span {
+  border-top-color: #292929;
+}
+
+.column {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  overflow: hidden;
+  border-top: 1px solid #292929;
+  text-align: center;
+}
+.column .tbox1,
+.column .tbox2,
+.column .tbox3,
+.column .tbox4,
+.column .tbox5 {
+  width: 320px;
+  padding: 4em 2em;
+}
+.column h2 {
+  margin: 1em 0em;
+  font-size: 1.5em;
+  font-weight: 700;
+}
+.column .title {
+  text-align: center;
+}
+.column p {
+  margin: 0;
+  font-size: 20px;
+  text-align: justify;
+  font-weight: 500;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 2em;
+  padding: 0.8em 2em;
+  background: #9C9A9A;
+  line-height: 1.8em;
+  letter-spacing: 0.04em;
+  text-decoration: none;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+.button:hover {
+  background-color: #272925;
+}
+
+.wrapper_poems {
+  margin: 0 auto;
+  max-width: 1400px;
+  overflow: hidden;
+}
+
+.flexbox_poems {
+  margin: 0 auto;
+  max-width: 1400px;
+  overflow: hidden;
+}
+.flexbox_poems h2 {
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+}
+.flexbox_poems p {
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  width: 700px;
+}
+.flexbox_poems p a {
+  text-decoration: none;
+  color: #292929;
+}
+.flexbox_poems p a:active {
+  color: yellow;
+}
+
+.flexbox_poems {
+  display: flex;
+  flex-direction: column;
+}
+
+.poems {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
