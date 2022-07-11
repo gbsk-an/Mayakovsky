@@ -1,24 +1,25 @@
-/* header */
-#header-wrapper {
-    overflow: hidden;
-    background: url(../images/header.png);
-    background-size: cover;
+header {
+  overflow: hidden;
+  background: url(../images/header.png);
+  background-size: cover;
 }
 
-.header {
-    text-align: center;
+.wrapper_header {
+  margin: 0 auto;
+  max-width: 1110px;
+  max-height: 315px;
+  padding-bottom: 100px;
+  padding-top: 100px;
+  overflow: hidden;
 }
 
-/* logo */
-#logo {
-    padding: 8em 0em 4em 0em;
+.logo {
+  text-align: center;
+  padding: 8em 0em 4em 0em;
 }
-
-#logo h1 {
-    display: inline-block;
-    margin-bottom: 0.20em;
-    padding: 0.20em 0.9em;
-    font-size: 52px;
-    font-weight: 500;
-    opacity: 80%;
+.logo h1 {
+  margin: 0;
+  font-size: 52px;
+  font-weight: 500;
+  opacity: 80%;
 }

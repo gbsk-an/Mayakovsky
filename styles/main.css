@@ -1,17 +1,11 @@
-@import url('./header.css');
-@import url('./nav.css');
-@import url('./main_grid.css');
-@import url('./footer.css');
-@import url('./normalize.css');
-@import url('./variables.css');
-
-/* wrapper */
-.wrapper {
-    overflow: hidden;
-    background: var(--white);
-}
-
+@import url("./header.css");
+@import url("./nav.css");
+@import url("./main_grid.css");
+@import url("./footer.css");
+@import url("./normalize.css");
+@import url("./variables.css");
 .container {
-    margin: 0px auto;
-    width: 1200px;
+  margin: 0px auto;
+  width: 1200px;
+  padding: 0;
 }
