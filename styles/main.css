@@ -5,12 +5,16 @@
 @import url("./footer.css");
 @import url("./normalize.css");
 @import url("./variables.css");
-
 body {
+  display: block;
   margin: 0;
   padding: 0;
   font-family: "Montserrat", sans-serif;
   font-size: 20px;
   color: #292929;
   background-color: #FFFFFF;
+}
+
+h1, h2, h3, p {
+  color: #292929;
 }

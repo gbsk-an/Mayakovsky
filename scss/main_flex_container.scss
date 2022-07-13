@@ -8,15 +8,23 @@ $font-stack: 'Montserrat', sans-serif;
     max-width: 1110px;
     padding: 6em 6em;
     text-align: center;
+    h1 {
+        font-size: 50px;
+        font-weight: 500;
+        opacity: 80%;
+        letter-spacing: 0.1em;
+    }
+    p {
+        font-size: 16px;
+        letter-spacing: 0.1em;
+    }
 }
 
 .wrapper_bio {
     margin: 0 auto;
     max-width: 1110px;
     overflow: hidden;
-    span {
-        border-top-color: $text-color;
-    }
+    padding: 100px;
 }
 
 .column {
@@ -24,8 +32,8 @@ $font-stack: 'Montserrat', sans-serif;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    overflow: hidden;
     border-top: 1px solid $text-color;
+    border-bottom: 1px solid $text-color;
     text-align: center;
     .tbox1,
     .tbox2,
@@ -75,6 +83,7 @@ $font-stack: 'Montserrat', sans-serif;
 .flexbox_poems {
     margin: 0 auto;
     max-width: 1400px;
+    padding-bottom: 100px;
     overflow: hidden;
     h2 {
         font-size: 24px;

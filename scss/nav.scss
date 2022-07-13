@@ -7,7 +7,8 @@ $font-stack: 'Montserrat', sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 60px;
+    margin-top: 365px;
+    height: 30px;
 }
 .nav {
     margin: 0;
@@ -30,6 +31,7 @@ $font-stack: 'Montserrat', sans-serif;
             text-decoration: none;
             color: $text-color;
             outline: 0;
+            height: 30px;
         }
     }
 }
@@ -41,3 +43,4 @@ $font-stack: 'Montserrat', sans-serif;
     background: #FFF;
     color: #292929;
 } 
+

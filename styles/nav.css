@@ -2,7 +2,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 60px;
+  margin-top: 365px;
+  height: 30px;
 }
 
 .nav {
@@ -28,6 +29,7 @@
   text-decoration: none;
   color: #292929;
   outline: 0;
+  height: 30px;
 }
 
 .nav li:hover a, .nav li.active a {
