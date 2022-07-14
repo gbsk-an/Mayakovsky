@@ -58,15 +58,87 @@
   display: inline-block;
   margin-top: 2em;
   padding: 0.8em 2em;
-  background: #9C9A9A;
+  font-size: 16px;
   line-height: 1.8em;
   letter-spacing: 0.04em;
   text-decoration: none;
-  font-size: 16px;
+  background: #9C9A9A;
   color: #FFFFFF;
+  border: none;
+  border-radius: 3px;
+  transition: 1s;
+  outline: none;
+  cursor: pointer;
 }
 .button:hover {
   background-color: #272925;
+  transition: 1s;
+}
+
+.modal {
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s;
+  top: -1000px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  background: rgba(10, 10, 10, 0.9);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 60px 15px;
+}
+
+.modal_active {
+  position: fixed;
+  top: 0;
+  visibility: visible;
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.modal__content {
+  width: 100%;
+  max-width: 500px;
+  padding: 50px;
+  background: #FFFFFF;
+  box-shadow: 0 5px 15px black;
+  border-radius: 3px;
+  position: relative;
+}
+
+.modal__close-button {
+  background: rgba(10, 10, 10, 0.9);
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: none;
+  cursor: pointer;
+  transition: 0.3s;
+  outline: none;
+}
+
+.modal__close-button:hover {
+  transition: 0.3s;
+}
+
+.modal__title {
+  font-size: 30px;
+  text-transform: uppercase;
+  margin: 0 0 15px;
+}
+
+.modal__description {
+  font-size: 20px;
 }
 
 .wrapper_poems {
