@@ -105,27 +105,35 @@ $font-stack: 'Montserrat', sans-serif;
         -ms-flex-align: start;
             align-items: flex-start;
     padding: 60px 15px;
-  }
+}
   
-  .modal_active {
+.modal_active {
     position: fixed;
     top: 0;
     visibility: visible;
     opacity: 1;
     -webkit-transition: .5s;
     transition: .5s;
-  }
-  
-  .modal__content {
+}
+
+.modal__content {
     width: 100%;
     max-width: 500px;
     padding: 50px;
     background: $white-color;
     border-radius: 3px;
     position: relative;
-  }
-  
-  .modal__close-button {
+    h1 {
+        font-size: 28px;
+        text-transform: uppercase;
+        margin: 0 0 15px;
+    }
+    p {
+        font-size: 18px;
+    }
+}
+
+.modal__close-button {
     background: rgba(10, 10, 10, 0.9);
     height: 30px;
     width: 30px;
@@ -133,11 +141,11 @@ $font-stack: 'Montserrat', sans-serif;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     border: none;
     position: absolute;
     right: 0;
@@ -147,22 +155,11 @@ $font-stack: 'Montserrat', sans-serif;
     -webkit-transition: .3s;
     transition: .3s;
     outline: none;
-  }
-  
-  .modal__close-button:hover {
-    -webkit-transition: .3s;
-    transition: .3s;
-  }
-  
-  .modal__title {
-    font-size: 30px;
-    text-transform: uppercase;
-    margin: 0 0 15px;
-  }
-  
-  .modal__description {
-    font-size: 20px;
-  }
+    &:hover {
+        -webkit-transition: .3s;
+        transition: .3s;
+    }
+}
 
 .wrapper_poems {
     margin: 0 auto;
