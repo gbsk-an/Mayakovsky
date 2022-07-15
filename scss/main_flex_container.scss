@@ -1,9 +1,4 @@
-$text-color: #292929;
-$btn-color: #9C9A9A;
-$btn-color-hover: #272925;
-$white-color: #FFFFFF;
-$font-stack: 'Montserrat', sans-serif;
-
+@import url(_var.scss);
 .welcome_title {
     margin: 0 auto;
     max-width: 1110px;

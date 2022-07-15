@@ -1,8 +1,4 @@
-$text-color: #292929;
-$btn-color: #9C9A9A;
-$white-color: #FFFFFF;
-$font-stack: 'Montserrat', sans-serif;
-
+@import url(_var.scss);
 header {
     overflow: hidden;
     background: url(../images/header.png) no-repeat;

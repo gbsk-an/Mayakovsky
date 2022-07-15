@@ -5,12 +5,7 @@
 @import url('./footer.css');
 @import url('./normalize.css');
 @import url('./variables.css');
-
-$text-color: #292929;
-$btn-color: #9C9A9A;
-$white-color: #FFFFFF;
-$font-stack: 'Montserrat', sans-serif;
-
+@import url(_var.scss);
 body {
     display: block;
     margin: 0;
