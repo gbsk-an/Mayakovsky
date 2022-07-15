@@ -15,20 +15,20 @@
         <div class="navigation">
             <ul class="nav">
                 <li class="active"><a href="#" title="">homepage</a></li>
-                <li><a href="#" title="">biography</a></li>
-                <li><a href="#" title="">careers</a></li>
-                <li><a href="#" title="">poems</a></li>
-                <li><a href="#" title="">contact us</a></li>
+                <li><a href="#bio" title="">biography</a></li>
+                <li><a href="#work" title="">work</a></li>
+                <li><a href="#poems" title="">poems</a></li>
+                <li><a href="#footer" title="">contact us</a></li>
             </ul>
         </div>
     </div>
 </header>
 <div class="welcome_title">
 	<h1>Vladimir Mayakovsky</h1>
-	<p>I want to be understood by my country, but if I fail to be understood - what then?,<br>I shall pass through my native land to one side, like a shower of slanting rain.</p>
+	<p>"I want to be understood by my country, but if I fail to be understood - what then?,<br>I shall pass through my native land to one side, like a shower of slanting rain".</p>
 </div>
 <main>
-	<div class="wrapper_bio">
+	<div id="bio" class="wrapper_bio">
 		<div><span></span></div>
 		<div class="column">					
 			<div class="tbox1">
@@ -87,16 +87,23 @@
 				  <p>Having left the Party (never to re-join it), he concentrated on education. "I stopped my Party activities. Sat down and started to learn… Now my intention was to make the Socialist art," he later remembered. In 1911 he enrolled in the Moscow Art School. In September 1911 a brief encounter with fellow student David Burlyuk (which nearly ended with a fight) led to a lasting friendship and had historic consequences for the nascent Russian Futurist movement. He became an active member (and soon a spokesman) for the group Hylaea, which sought to free the arts from academic traditions: its members would read poetry on street corners, throw tea at their audiences, and make their public appearances an annoyance for the art establishment. Burlyuk, on having heard Mayakovsky's verses, declared him "a genius poet". Later Soviet researchers tried to downplay the significance of the fact, but even after their friendship ended and their ways parted, Mayakovsky continued to give credit to his mentor, referring to him as "my wonderful friend". "It was Burlyuk who turned me into a poet. He read the French and the Germans to me. He pressed books on me. He would come and talk endlessly. He didn't let me get away. He would subsidize me with 50 kopeks each day so that I'd write and not be hungry," Mayakovsky wrote in "I, Myself".</p>
 				</div>
 			</div>
-			<div class="tbox5">
+			<div id="work" class="tbox5">
 				<div class="title">
 					<h2>Work</h2>
 				</div>
 				<p>Mayakovsky's early poems established him as one of the more original poets to come out of the Russian Futurism, a movement rejecting...</p>
-				<button class="button get-modal_5">Learn More</button> 
+				<button id="callback-button-5" class="button get-modal_5">Learn More</button> 
+			</div>
+			<div class="modal" id="modal-5">
+				<div class="modal__content">
+				  <button class="modal__close-button"><img src="./img/close.svg" alt=""></button>
+				  <h1>Work</h1>
+				  <p>Mayakovsky's early poems established him as one of the more original poets to come out of the Russian Futurism, a movement rejecting the traditional poetry in favour of formal experimentation, and welcoming the social change promised by modern technology. His 1913 verses, surreal, seemingly disjointed and nonsensical, relying on forceful rhythms and exaggerated imagery with the words split into pieces and staggered across the page, peppered with street language, were considered unpoetic in literary circles at the time. While the confrontational aesthetics of his fellow Futurist group members' poetry were mostly confined to formal experiments, he's idea was creating the new, "democratic language of the streets". 1917–1921 was a fruitful period for Mayakovsky, who greeted the Bolshevik Revolution with a number of poetic and dramatic works, starting with "Ode to the Revolution" (1918) and "Left March" (1918), a hymn to the proletarian might, calling for the fight against the "enemies of the revolution." Mystery-Bouffe, the first Soviet play, told the story of a new Noah's Ark, built by the "unclean" (workers and peasants) sporting "moral cleanness" and "united by the class solidarity. In 1919–1921, Mayakovsky worked for the Russian Telegraph Agency (ROSTA). In 1926, Mayakovsky wrote and published "Talking with the Taxman about Poetry", the first in a series of works criticizing the new Soviet philistinism, the result of the New Economic Policy. In his last three years, Mayakovsky completed two satirical plays: The Bedbug (1929), and The Bathhouse, both lampooning bureaucratic stupidity and opportunism.</p>
+				</div>
 			</div>
     	</div>
 	</div>
-	<div class="wrapper_poems">
+	<div id="poems" class="wrapper_poems">
 		<div class="flexbox_poems">
 			<div>			
 				<h2>1912</h2>
@@ -179,7 +186,7 @@
 			</div>
 		</div>
 	</div>
-<footer>
+<footer id="footer">
 	<div class="footer_flexbox">
 		<div class="adress">
 			<p>Road 1234 Street 2345</p>

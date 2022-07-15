@@ -170,3 +170,45 @@ document.addEventListener('DOMContentLoaded', () => {
 
 });
 // fifth modal content block
+document.addEventListener('DOMContentLoaded', () => {
+
+  let callBackButton5 = document.getElementById('callback-button-5');
+
+  let modal5 = document.getElementById('modal-5');
+
+  let closeButton5 = modal5.getElementsByClassName('modal__close-button')[0];
+
+  let tagBody_5 = document.getElementsByTagName('body');
+
+  callBackButton5.onclick = function (e) {
+    e.preventDefault();
+    modal5.classList.add('modal_active');
+    tagBody_5.classList.add('hidden');
+  }
+
+  closeButton5.onclick = function (e) {
+    e.preventDefault();
+    modal5.classList.remove('modal_active');
+    tagBody_5.classList.remove('hidden');
+  }
+
+  modal5.onmousedown = function (e) {
+    let target = e.target;
+    let modalContent = modal5.getElementsByClassName('modal__content')[0];
+    if (e.target.closest('.' + modalContent.className) === null) {
+      this.classList.remove('modal_active');
+      tagBody_5.classList.remove('hidden');
+    }
+  };
+
+  let buttonOpenModal5 = document.getElementsByClassName('get-modal_5');
+
+  for (let button of buttonOpenModal5) {
+    button.onclick = function (e) {
+      e.preventDefault();
+      modal5.classList.add('modal_active');
+      tagBody_5.classList.add('hidden');
+    }
+  }
+
+});
