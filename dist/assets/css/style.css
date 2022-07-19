@@ -1,8 +1,12 @@
+@import url(_var.scss);
+
+@import url(_var.scss);
+
 body {
     display: block;
     margin: 0;
     padding: 0;
-    font-family: "Montserrat", sans-serif;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-size: 20px;
     color: #292929;
     background-color: #FFFFFF;
@@ -73,4 +77,238 @@ header {
     height: 60px;
     background: #FFF;
     color: #292929;
+}
+
+.welcome_title {
+    margin: 0 auto;
+    max-width: 1110px;
+    padding: 8em 6em;
+    text-align: center;
+}
+
+.welcome_title h1 {
+    font-size: 50px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+}
+
+.welcome_title p {
+    font-size: 16px;
+    letter-spacing: 0.1em;
+}
+
+.wrapper_bio {
+    margin: 0 auto;
+    max-width: 1110px;
+    overflow: hidden;
+}
+
+.column {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    border-top: 1px solid #292929;
+    border-bottom: 1px solid #292929;
+    text-align: center;
+}
+
+.column .tbox1,
+.column .tbox2,
+.column .tbox3,
+.column .tbox4,
+.column .tbox5 {
+    width: 320px;
+    padding: 4em 2em;
+}
+
+.column h2 {
+    margin: 1em 0em;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.column .title {
+    text-align: center;
+}
+
+.column p {
+    margin: 0;
+    font-size: 20px;
+    text-align: justify;
+    font-weight: 500;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 2em;
+    padding: 0.8em 2em;
+    font-size: 16px;
+    line-height: 1.8em;
+    letter-spacing: 0.04em;
+    text-decoration: none;
+    background: #9C9A9A;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 3px;
+    transition: 1s;
+    outline: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #272925;
+    transition: 1s;
+}
+
+.modal {
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s;
+    top: -1000px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    background: rgba(10, 10, 10, 0.9);
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    padding: 60px 15px;
+}
+
+.modal_active {
+    position: fixed;
+    top: 0;
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.modal__content {
+    width: 100%;
+    max-width: 500px;
+    padding: 50px;
+    background: #FFFFFF;
+    border-radius: 3px;
+    position: relative;
+}
+
+.modal__content h1 {
+    font-size: 28px;
+    text-transform: uppercase;
+    margin: 0 0 15px;
+}
+
+.modal__content p {
+    font-size: 18px;
+}
+
+.modal__close-button {
+    background: rgba(10, 10, 10, 0.9);
+    height: 30px;
+    width: 30px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: none;
+    cursor: pointer;
+    transition: 0.3s;
+    outline: none;
+}
+
+.modal__close-button:hover {
+    transition: 0.3s;
+}
+
+.wrapper_poems {
+    margin: 0 auto;
+    max-width: 1400px;
+    overflow: hidden;
+    padding-top: 100px;
+}
+
+.flexbox_poems {
+    margin: 0 auto;
+    max-width: 1400px;
+    padding-bottom: 100px;
+    overflow: hidden;
+}
+
+.flexbox_poems h2 {
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+}
+
+.flexbox_poems p {
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    width: 700px;
+}
+
+.flexbox_poems p a {
+    text-decoration: none;
+    color: #292929;
+}
+
+.flexbox_poems p a:active {
+    color: yellow;
+}
+
+.flexbox_poems {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.poems {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+footer {
+    background-color: #9C9A9A;
+}
+
+.footer_flexbox {
+    max-width: 1400px;
+    height: 150px;
+    margin: 0 auto;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+
+.footer_flexbox p {
+    font-size: 18px;
 }
