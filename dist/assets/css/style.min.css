@@ -230,6 +230,8 @@ header {
   max-width: 1400px;
   overflow: hidden;
   padding-top: 100px;
+  position: relative;
+  z-index: 1;
 }
 
 .flexbox_poems {
